@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Catalog360 – Cultură Generală</title>
+  <meta name="description" content="Învață cultură generală prin lecții scurte și quiz-uri: istorie, geografie, știință, literatură, artă, România, sport și natură.">
+  <meta name="theme-color" content="#4f46e5">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand" aria-label="Acasă">
+      <span class="logo">360</span>
+      <span class="brand-text">Catalog360<small>Cultură Generală</small></span>
+    </a>
+    <div class="top-stats">
+      <span class="pill" title="Zile la rând"><span aria-hidden="true">🔥</span> <b id="streak">0</b></span>
+      <span class="pill" title="Puncte XP"><span aria-hidden="true">⭐</span> <b id="xp">0</b></span>
+      <button id="themeBtn" class="icon-btn" aria-label="Schimbă tema">🌓</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Navigare">
+    <a href="#/" data-tab="home"><span>🏠</span>Acasă</a>
+    <a href="#/invata" data-tab="invata"><span>📖</span>Învață</a>
+    <a href="#/quiz" data-tab="quiz"><span>🎯</span>Quiz</a>
+    <a href="#/progres" data-tab="progres"><span>📊</span>Progres</a>
+  </nav>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

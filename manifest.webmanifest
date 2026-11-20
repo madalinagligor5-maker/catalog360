@@ -1,0 +1,10 @@
+{
+  "name": "Catalog360 – Cultură Generală",
+  "short_name": "Catalog360",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6f7fb",
+  "theme_color": "#4f46e5",
+  "lang": "ro",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
